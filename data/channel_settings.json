@@ -1,5 +1,6 @@
 {
-
+    "board_link" : "adfa3rfa32rwf3r",
+    "overlay_link" : "fksad8fasdf3r7",
     "channel" :"smaugy",
     "enable_commands": false,
     "list_command":["!pop", "!twop", "!twitchpop", "!pop.click"], //does not start with ! and min length 3
@@ -32,7 +33,7 @@
         "command_min_level": "streamer", //streamer, mod, sub, follower, viewer
         "min_view_time": 3600, // m
         "command_extra_timeout": "5.0",
-        "discord_message": "",
-        "discord_message"
+        "twitter_message": "",
+        "discord_message" : ""
     }]
 }
