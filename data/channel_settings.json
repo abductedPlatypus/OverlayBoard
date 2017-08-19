@@ -1,0 +1,38 @@
+{
+
+    "channel" :"smaugy",
+    "enable_commands": false,
+    "list_command":["!pop", "!twop", "!twitchpop", "!pop.click"], //does not start with ! and min length 3
+    "command_timeout": "15s",
+    "help_message": "POP.click is a an overlay for all your stream meming needs: ",
+    "timeout_message": "Please don't spam Pop.Clicks.",
+    "ban_message": "You are forbidden from using Pop.Clicks",
+    "_message": "POP.click is a an overlay for all your stream meming needs: ",
+    "timeout_max_level": "streamer", //streamer, mod, sub, follower, viewer
+    "youtube_quality" :"default", //small, medium, large, hd720, hd1080, highres or default
+    
+    "buttons":[{
+        "type": "video", // audiovisual, youtube, twitch, tweet, discord message 
+        "id": "someuniqueid",
+        "hotkey": 49, //somekeycode in js http://keycode.info/
+        "name": "A readable name",
+        "icon" : "smaugyRage", //link, emote or :penguin: https://www.npmjs.com/package/twitch-emoticons   
+        "audio_url" :"https://myaudio.io/somefile.wav",
+        "img_url" : "https://giphy.com/somegif.gif", //link, upload to imgur, emote or :penguin: https://www.npmjs.com/package/twitch-emoticons 
+        "duration" : 10.0, 
+        "loop" : false, // can I implement?
+        "preload": true, // implement later?
+        "youtube_id": "asdfAiGsHfq4",
+        "youtube_start":"0:22",
+        "youtube_muted": false,
+        "twitch_slug": "BigCheesyPizzaKreyGasm",
+        "twitch_start": "0h0m0s",
+        "twitch_muted": false,
+        "chat_command": ["!mycommand"],
+        "command_min_level": "streamer", //streamer, mod, sub, follower, viewer
+        "min_view_time": 3600, // m
+        "command_extra_timeout": "5.0",
+        "discord_message": "",
+        "discord_message"
+    }]
+}
