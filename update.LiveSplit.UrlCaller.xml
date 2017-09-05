@@ -1,0 +1,10 @@
+<updates>
+	<update version="0.0.1">
+		<files>
+			<file path="Components/LiveSplit.UrlCaller.dll" status="added"/>
+		</files>
+		<changelog>
+			<change>Initial Release</change>
+		</changelog>
+	</update>
+</updates>
